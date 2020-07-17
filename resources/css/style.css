@@ -1,0 +1,148 @@
+/*Universal Style*/
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+/*Header*/
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+header .col {
+    display: inline-block;
+}
+
+.logo {
+    height: 50px;
+    padding-left: 10px;
+}
+
+nav {
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    padding-right: 1.5rem;
+}
+
+/*Jumbotron*/
+.jumbotron {
+    display: flex;
+    align-items: center;
+    height: 700px;
+    background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 80px;
+    position: relative;
+}
+
+#mission {
+    background-color: black;
+    width: 1200px;
+    text-align: center;
+    line-height: 0.5rem;
+}   
+
+/*Contents*/
+.tea {
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.cozy-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+
+}
+
+.item {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.item img {
+    width: 300px;
+    height: 200px;
+}
+
+.item p {
+    margin-top: 10px;
+}
+
+/*Location*/
+section{
+    display: flex;
+    align-items: center;
+    height: 500px;
+    background-image:url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 80px;
+}
+
+.info{
+    margin: 0 80px;
+}
+
+.info-loc {
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.all-loc {
+    display: flex;
+    justify-content: center;
+}
+
+.loc {
+    background-color: black;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: 0 20px;
+    opacity: 1;
+}
+
+.loc h3 {
+    margin-bottom: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.address {
+    margin-top:0;
+    line-height: 3;
+}
+
+/*Footer*/
+.contact {
+    text-align: center;
+    height: 200px;
+}
+.copy {
+    margin-left: 20px;
+}
